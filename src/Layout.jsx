@@ -14,6 +14,9 @@ const Layout = () => {
           <li>
             <Link to="/input">Text</Link>
           </li>
+          <li>
+            <Link to="/quiz">Quiz</Link>
+          </li>
         </ul>
       </nav>
 

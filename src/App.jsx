@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './Layout';
 import Home from './Home';
 import NoPage from './NoPage';
+import Quiz from './Quiz';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="counter" element={<Counter />} />
             <Route path="input" element={<Text />} />
+            <Route path="quiz" element={<Quiz />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
