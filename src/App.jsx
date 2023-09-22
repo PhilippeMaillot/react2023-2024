@@ -6,6 +6,7 @@ import Layout from './Layout';
 import Home from './Home';
 import NoPage from './NoPage';
 import Quiz from './Quiz';
+import Shop from './Shop';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="counter" element={<Counter />} />
             <Route path="input" element={<Text />} />
             <Route path="quiz" element={<Quiz />} />
+            <Route path="shop" element={<Shop />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

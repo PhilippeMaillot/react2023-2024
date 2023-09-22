@@ -3,12 +3,9 @@ import questions from './questions'
 import './Quiz.css'
 
 function Quiz() {
-    // Données - Quelle est la question actuelle ? Quel est le score ? On pourra afficher les bonnes questions / options
-    //passer par l'index
     const [indexQuestion, setIndexQuestion] = useState(0)
     const [score, setScore] = useState(0)
 
-    //Comportements - quand on clique sur un choix par exemple
     function handleClick(option) {
         if (option === questions[indexQuestion].answer){
             setScore(prevScore => prevScore + 1)
@@ -21,7 +18,6 @@ function Quiz() {
         setScore(0)
     }
 
-    //JSX
     return ( 
         <div className="quiz">
             <h1>Mon Quiz React</h1>
@@ -30,7 +26,7 @@ function Quiz() {
         { questions[indexQuestion] ?
             <>
             <div className="question-section">
-                {/*Ici on affiche notre question */}
+                {}
             </div>
             <h2>{questions[indexQuestion].question}</h2>
             <div className="options-section">

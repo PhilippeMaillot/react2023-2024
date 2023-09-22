@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  .card {
+    max-width: 18rem;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .container {
+    margin-top: 10px;
+  }

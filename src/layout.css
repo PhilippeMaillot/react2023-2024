@@ -1,26 +1,28 @@
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 10px; /* Ajoute un espace entre les liens */
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #ffffff; /* Couleur du texte des liens */
-    font-weight: bold; /* Police en gras */
-  }
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333; /* Couleur de fond pour la barre de navigation */
-    color: white; /* Couleur du texte dans la barre de navigation */
-  }
-  
-  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 15px;
+  color: #313030;
+  font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(217, 217, 217);
+  z-index: 1;
+}
+
