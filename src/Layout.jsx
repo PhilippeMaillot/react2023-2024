@@ -21,6 +21,9 @@ const Layout = () => {
           <li>
             <Link to="/shop">Shop</Link>
           </li>
+          <li>
+            <Link to="/connexion">Connexion</Link>
+          </li>
         </ul>
       </nav>
 

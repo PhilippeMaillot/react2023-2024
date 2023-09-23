@@ -2,6 +2,13 @@ import { useState } from 'react'
 import questions from './questions'
 import './Quiz.css'
 
+/**
+ * Renders a quiz component with questions and options.
+ * @returns {JSX.Element} The quiz component.
+ */
+function Quiz() {
+    // ... rest of the code
+}
 function Quiz() {
     const [indexQuestion, setIndexQuestion] = useState(0)
     const [score, setScore] = useState(0)

@@ -7,6 +7,7 @@ import Home from './Home';
 import NoPage from './NoPage';
 import Quiz from './Quiz';
 import Shop from './Shop';
+import Connexion from './Connexion';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="input" element={<Text />} />
             <Route path="quiz" element={<Quiz />} />
             <Route path="shop" element={<Shop />} />
+            <Route path="connexion" element={<Connexion />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
