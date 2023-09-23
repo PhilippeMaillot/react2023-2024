@@ -7,9 +7,6 @@ import './Quiz.css'
  * @returns {JSX.Element} The quiz component.
  */
 function Quiz() {
-    // ... rest of the code
-}
-function Quiz() {
     const [indexQuestion, setIndexQuestion] = useState(0)
     const [score, setScore] = useState(0)
 
