@@ -1,17 +1,18 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Layout";
-import Home from "./Home";
-import NoPage from "./NoPage";
-import Quiz from "./Quiz";
-import Shop from "./Shop";
-import SignIn from "./SignIn";
-import { ShopContextProvider } from "./ShopContext"; // Importez le fournisseur de contexte ShopContextProvider
+import { ShopContextProvider } from "./components/ShopContext";
+import Layout from "./components/Layout";
+import Home from "./pages/Home/Home";
+import NoPage from "./pages/NoPage/NoPage";
+import Quiz from "./pages/Quiz/Quiz";
+import Shop from "./pages/Shop/Shop";
+import SignIn from "./pages/SignIn-SignUp/SignIn";
+import SignUpForm from "./pages/SignIn-SignUp/SignUp";
+import Cart from "./pages/Cart/Cart"; 
+import Counter from "./pages/Counter/Counter";
+import Text from "./pages/Input/Input";
 import "./App.css";
-import Cart from "./Cart"; // Importez le composant Cart 
-import Counter from "./Counter";
-import Text from "./Input";
-import SignUpForm from "./Signup";
+
 
 function App() {
   return (

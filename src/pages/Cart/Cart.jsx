@@ -1,5 +1,5 @@
 import React from "react";
-import { useShopContext } from "./ShopContext";
+import { useShopContext } from "../../components/ShopContext";
 
 function Cart() {
   // Utilisez le hook useShopContext pour accéder au contexte

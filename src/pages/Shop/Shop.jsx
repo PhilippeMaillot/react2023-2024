@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Shop.css";
-import { useShopContext } from "./ShopContext"; // Importez le hook useShopContext
+import { useShopContext } from "../../components/ShopContext"; // Importez le hook useShopContext
 import { Link } from "react-router-dom"; // Importez le composant Link
 
 function SearchBar({ value, onChange }) {
